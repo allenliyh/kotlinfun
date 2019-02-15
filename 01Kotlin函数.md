@@ -94,4 +94,7 @@ world(ints = *intArrayOf(1, 2, 3, 4, 5), string = "world")
 fun world(double: Double, vararg ints: Int, string: String = "world")
 world(3.0, *array)
 ```
-如果默认参数在最后一个，调用时不传也不会产生歧义
+如果默认参数在最后一个，调用时不传也不会产生歧义   
+
+
+参考文献：Kotlin实战
